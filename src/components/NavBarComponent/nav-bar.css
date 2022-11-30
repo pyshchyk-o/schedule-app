@@ -1,0 +1,27 @@
+.nav-bar-container {
+    align-items: center;
+    background: rgba(20, 20, 20, 0.5);
+    color: #fff;
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    padding: 0 4%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.nav-button-container {
+    cursor: pointer;
+    height: 24px;
+    width: 24px;
+}
+
+.nav-button-container .pi{
+    font-size: 24px;
+}
+
+.nav-logo {
+    width: 117px;
+}

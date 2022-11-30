@@ -1,0 +1,152 @@
+/*Main Container styles*/
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.schedule {
+    position: relative;
+    color: #fff;
+    background: #222;
+    animation: fadeInAnimation ease 1s;
+}
+.scrollable-area {
+    overflow-x: auto;
+    overflow-y: visible;
+}
+/* Schedules List styles */
+.schedules-list-container {
+    padding-left: 60px;
+    box-sizing: content-box;
+    position: relative;
+}
+.schedules {
+    position: relative;
+}
+.schedules-row {
+    height: 60px;
+    position: relative;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.current-schedule {
+    width: 1px;
+    margin-left: 60px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background: rgba(232, 65, 175, 0.5);
+    transition: left 0.5s;
+}
+.current-schedule:before {
+    content: '';
+    width: 3px;
+    height: 25px;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -1px;
+    border-radius: 2px;
+    background: rgba(232, 65, 175, 0.6);
+}
+/* Time Line Component styles */
+.time-line-header {
+    margin-left: -60px;
+    position: relative;
+    background: rgba(255, 255, 255, 0.1);
+    z-index: 3;
+}
+.time-line-container {
+    height: 25px;
+    margin-left: 60px;
+}
+.time-line-container .time {
+    height: 100%;
+    font-size: 12px;
+    line-height: 25px;
+    display: inline-block;
+    position: relative;
+}
+.time-line-container .time:after {
+    content: '';
+    height: 5px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
+}
+/* Channels component styles */
+.channels {
+    background: rgb(34, 34, 34);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    left: 0;
+    position: absolute;
+    top: 59px;
+    width: 60px;
+    z-index: 2;
+}
+.channel-container {
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    height: 60px;
+    justify-content: center;
+}
+.channel-logo {
+    width: 70%;
+    height: 70%;
+}
+/* Program component styles */
+.program-container {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    padding: 10px;
+    position: absolute;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-top: 0;
+    border-bottom: 0;
+    cursor: pointer;
+}
+.program-active {
+    background: rgba(255, 255, 255, 0.05);
+}
+.program-info {
+    font-size: 11px;
+    line-height: 13px;
+}
+.program-name {
+    margin-bottom: 2px;
+    max-height: 27px;
+    overflow: hidden;
+}
+.program-time {
+    color: #a2a2a2;
+    white-space: nowrap;
+}
+/* Now Button styles */
+.now-button {
+    background: #e841af;
+    border-radius: 5px;
+    border: 0;
+    bottom: -40px;
+    color: #fff;
+    cursor: pointer;
+    padding: 8px 10px;
+    position: absolute;
+    right: 20px;
+}
+.now-button:hover {
+    color: #fff;
+    text-decoration: none;
+}
+/* Date Component */
+.schedule-date{
+    align-items: center;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+}

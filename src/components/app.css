@@ -1,0 +1,15 @@
+html,
+body {
+    background-color: #000000;
+    color: #fff;
+    font-family: sans-serif;
+    height: 100%;
+    margin: 0;
+}
+#app {
+    height: 100%;
+}
+.app-container {
+    padding-top: 100px;
+    height: 100%;
+}

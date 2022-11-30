@@ -1,0 +1,51 @@
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.program-details {
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+}
+.program-details-container {
+    padding: 20px;
+}
+.program-background {
+    background-image: linear-gradient(0deg, transparent 60%, rgba(0, 0, 0, 0.2) 90%, rgba(0, 0, 0, 0.4) 100%), url(./../../public/program_example.jpeg);
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-bottom: 40%;
+    background-position: center top;
+    background-size: cover;
+}
+.program-info-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+}
+.margin-right {
+  margin-right: 12px;
+}
+.program-title {
+    font-size: 32px;
+    margin: 12px 0;
+}
+.program-description {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.cast-component {
+    display: flex;
+    color: #6c757d;
+    line-height: 24px;
+    flex-wrap: wrap;
+    margin-bottom: 8px;
+}
+.cast-component-title {
+    margin-right: 4px;
+}
