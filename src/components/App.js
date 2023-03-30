@@ -2,10 +2,10 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 
 import "./app.css";
-import NavBar from "./NavBarComponent/index";
-import TabBar from "./TabBarComponent/index";
-import Schedule from "./ScheduleComponent";
-import ProgramDetails from "./ProgramDetailsComponent";
+import NavBar from "./NavBar/index";
+import TabBar from "./TabBar/index";
+import Schedule from "./Schedule";
+import ProgramDetails from "./ProgramDetails";
 
 const MainScreen = () => (
   <div className="app-container">

@@ -3,8 +3,8 @@ import { useLocation } from "react-router-dom";
 
 import "./program-details.css";
 import CastComponent from "./CastComponent";
-import ErrorComponent from "../ErrorComponent";
-import Loader from "../LoadComponent";
+import ErrorComponent from "../Error";
+import Loader from "../Load";
 import { API_URL } from "./../../constants/index";
 
 const ProgramDetails = () => {

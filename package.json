@@ -1,10 +1,10 @@
 {
-  "name": "candidate-tester",
+  "name": "schedule-app",
   "version": "0.0.1",
-  "description": "This is intended to used as instructions for completing the Norigin Media testing task for new candidates",
+  "description": "",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NoriginMedia/candidate-tester.git"
+    "url": "git+https://github.com/pyshchyk-o/schedule-app.git"
   },
   "scripts": {
     "start:mock-api": "./node_modules/.bin/osprey-mock-service -f ./node_modules/nm-mock-api/demo.raml -p 1337 --cors",
@@ -15,12 +15,8 @@
     "open:page": "open 'http://localhost:8080'",
     "start": "run-s tab:start:server tab:start:js"
   },
-  "author": "Dylan Thomson",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/NoriginMedia/candidate-tester/issues"
-  },
-  "homepage": "https://github.com/NoriginMedia/candidate-tester#readme",
+  "homepage": "https://github.com/pyshchyk-o/schedule-app#readme",
   "dependencies": {
     "@babel/core": "^7.20.2",
     "@babel/plugin-proposal-class-properties": "^7.18.6",

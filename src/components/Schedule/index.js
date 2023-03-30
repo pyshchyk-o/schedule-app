@@ -9,8 +9,8 @@ import {
   MIN_PER_HOUR,
   SCALE,
 } from "./../../constants/index";
-import Loader from "../LoadComponent";
-import ErrorComponent from "../ErrorComponent";
+import Loader from "../Load";
+import ErrorComponent from "../Error";
 
 let isTimerStopped;
 let timer;
